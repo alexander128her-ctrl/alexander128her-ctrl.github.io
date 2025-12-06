@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop – GlowJoy Naturals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <span class="logo-text">GlowJoy<span>Naturals</span></span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="shop.html" class="nav-link active">Shop</a>
+      <a href="support.html" class="nav-link">Support</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="checkout.html" class="nav-link cart-link">Cart (<span id="nav-cart-count">0</span>)</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <main class="section shop-section">
+    <h1 class="section-title">Shop GloGummies</h1>
+    <p class="section-subtitle">Choose your favorite flavors – all-natural, low-sugar, and glow-ready.</p>
+
+    <div class="product-grid">
+      <article class="product-card fade-up">
+        <h2>Strawberry Glow</h2>
+        <p>Low-sugar strawberry gummies with vitamin C.</p>
+        <p class="price">$4.99</p>
+        <button class="btn small" onclick="addToCart('Strawberry Glow', 4.99)">Add to Cart</button>
+      </article>
+      <article class="product-card fade-up">
+        <h2>Mango Radiance</h2>
+        <p>Tropical mango with natural color and flavor.</p>
+        <p class="price">$4.99</p>
+        <button class="btn small" onclick="addToCart('Mango Radiance', 4.99)">Add to Cart</button>
+      </article>
+      <article class="product-card fade-up">
+        <h2>Berry Boost Mix</h2>
+        <p>Mixed berries with added fiber.</p>
+        <p class="price">$5.49</p>
+        <button class="btn small" onclick="addToCart('Berry Boost Mix', 5.49)">Add to Cart</button>
+      </article>
+      <article class="product-card fade-up">
+        <h2>GlowBoost Electrolyte</h2>
+        <p>Hydration gummies with electrolytes for workouts.</p>
+        <p class="price">$5.99</p>
+        <button class="btn small" onclick="addToCart('GlowBoost Electrolyte', 5.99)">Add to Cart</button>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="support.html">Customer Support</a>
+      <a href="login.html">Login / Sign Up</a>
+    </div>
+    <p>© 2025 GlowJoy Naturals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

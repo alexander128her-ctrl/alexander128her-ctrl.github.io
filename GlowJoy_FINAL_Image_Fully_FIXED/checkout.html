@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout – GlowJoy Naturals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <span class="logo-text">GlowJoy<span>Naturals</span></span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="support.html" class="nav-link">Support</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="checkout.html" class="nav-link cart-link active">Cart (<span id="nav-cart-count">0</span>)</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <main class="section checkout-section">
+    <h1 class="section-title">Checkout</h1>
+
+    <div class="checkout-layout">
+      <div class="checkout-summary fade-up">
+        <h2>Your Order</h2>
+        <ul id="cart-items-list"></ul>
+        <p class="checkout-total">Total: $<span id="cart-total">0.00</span></p>
+      </div>
+
+      <form class="checkout-form fade-up" id="checkout-form">
+        <h2>Shipping Info</h2>
+        <input type="text" placeholder="Full Name" required />
+        <input type="text" placeholder="Address" required />
+        <input type="text" placeholder="City" required />
+        <input type="text" placeholder="State" required />
+        <input type="text" placeholder="ZIP Code" required />
+        <h2>Payment</h2>
+        <input type="text" placeholder="Card Number" required />
+        <input type="text" placeholder="Expiration (MM/YY)" required />
+        <input type="text" placeholder="CVV" required />
+        <button class="btn primary" type="submit">Complete Order</button>
+        <p class="form-note">Demo only – payment is not processed.</p>
+        <p id="order-message" class="order-message"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 GlowJoy Naturals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

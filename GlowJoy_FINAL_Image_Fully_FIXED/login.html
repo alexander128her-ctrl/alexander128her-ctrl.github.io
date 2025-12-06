@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login / Sign Up – GlowJoy Naturals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <span class="logo-text">GlowJoy<span>Naturals</span></span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="support.html" class="nav-link">Support</a>
+      <a href="login.html" class="nav-link active">Login</a>
+      <a href="checkout.html" class="nav-link cart-link">Cart (<span id="nav-cart-count">0</span>)</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <main class="section auth-section">
+    <div class="auth-card fade-up">
+      <h1 class="section-title">Welcome to GlowJoy</h1>
+      <p class="section-subtitle">Create an account to save favorites, track orders, and get early access to new flavors.</p>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login-panel">Login</button>
+        <button class="auth-tab" data-tab="signup-panel">Sign Up</button>
+      </div>
+
+      <div id="login-panel" class="auth-panel">
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button class="btn primary">Login</button>
+      </div>
+
+      <div id="signup-panel" class="auth-panel" style="display:none;">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button class="btn primary">Create Account</button>
+      </div>
+      <p class="form-note">This login is a front-end mock for a college project – no real accounts are created.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 GlowJoy Naturals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Support – GlowJoy Naturals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <span class="logo-text">GlowJoy<span>Naturals</span></span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="support.html" class="nav-link active">Support</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="checkout.html" class="nav-link cart-link">Cart (<span id="nav-cart-count">0</span>)</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <main class="section support-section">
+    <h1 class="section-title">Customer Support</h1>
+    <p>If you have questions about orders, ingredients, allergies, or feedback, please reach out using the form below.</p>
+
+    <form class="support-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <select required>
+        <option value="">Reason for contact</option>
+        <option>Order issue</option>
+        <option>Allergy / ingredient question</option>
+        <option>Feedback / suggestion</option>
+        <option>Other</option>
+      </select>
+      <textarea placeholder="How can we help?" rows="5" required></textarea>
+      <button class="btn primary" type="submit">Submit</button>
+      <p class="form-note">Note: This is a demo form for a college project – no real data is collected.</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 GlowJoy Naturals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

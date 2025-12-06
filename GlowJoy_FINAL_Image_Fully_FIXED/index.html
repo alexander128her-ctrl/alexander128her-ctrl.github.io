@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GlowJoy Naturals – Snack Smarter, Glow Brighter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo-dot"></div>
+      <span class="logo-text">GlowJoy<span>Naturals</span></span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="shop.html" class="nav-link">Shop</a>
+      <a href="support.html" class="nav-link">Support</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="checkout.html" class="nav-link cart-link">Cart (<span id="nav-cart-count">0</span>)</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <section class="hero" style="background-image: url('assets/A_packaging_design_photograph_of_GlowJoy_Naturals'.png');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content animate-in">
+      <h1>Snack Smarter. Glow Brighter.</h1>
+      <p>All-natural, low-sugar gummies packed with vitamins, fiber, and electrolytes – made for movement, study sessions, and late-night college grinds.</p>
+      <div class="hero-actions">
+        <a href="shop.html" class="btn primary">Shop GloGummies</a>
+        <a href="#about" class="btn ghost">Why GlowJoy?</a>
+      </div>
+      <p class="eco-tag">Packaged with 100% recycled plastic · No Red 40 · Allergen-friendly options</p>
+    </div>
+  </section>
+
+  <section id="about" class="section features-section">
+    <h2 class="section-title">Why Students Love GlowJoy</h2>
+    <div class="feature-grid">
+      <article class="feature-card fade-up">
+        <h3>📚 Study-Friendly Energy</h3>
+        <p>Low sugar + functional ingredients mean no heavy crash during exams, late-night projects, or early classes.</p>
+      </article>
+      <article class="feature-card fade-up">
+        <h3>💪 Gym & Wellness Ready</h3>
+        <p>GlowBoost™ variants include electrolytes, vitamin C, and more – perfect for pre- or post-workout pick-me-ups.</p>
+      </article>
+      <article class="feature-card fade-up">
+        <h3>🌱 Clean & Conscious</h3>
+        <p>No artificial dyes, no Red 40, and eco-conscious recycled packaging that fits your values and lifestyle.</p>
+      </article>
+      <article class="feature-card fade-up">
+        <h3>🎒 Pocket-Sized Happiness</h3>
+        <p>Resealable pouches slide into backpacks, gym bags, or pockets – snack anytime, anywhere.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-highlight">
+    <div class="highlight-left">
+      <h2 class="section-title">Candy That Loves You Back</h2>
+      <p>Traditional candy is loaded with refined sugar, artificial dyes, and ingredients that don’t support your goals. GlowJoy flips the script with natural flavors, functional benefits, and a taste that still feels like a reward.</p>
+      <ul class="compare-list">
+        <li><span>❌</span> High-fructose corn syrup & artificial dyes</li>
+        <li><span>❌</span> Zero nutritional value & sugar crashes</li>
+        <li><span>✅</span> GlowJoy: low sugar, added vitamins, real fruit flavor</li>
+        <li><span>✅</span> GlowJoy: eco-friendly packaging & allergen-conscious options</li>
+      </ul>
+    </div>
+    <div class="highlight-right">
+      <img src="assets/A_colorful,_digital_advertisement_showcases_"GlowJ.png" alt="GlowJoy Gummies" class="highlight-img" />
+    </div>
+  </section>
+
+  <section class="section flavor-preview-section">
+    <h2 class="section-title">Featured Flavors</h2>
+    <div class="flavor-grid">
+      <article class="flavor-card pop-in">
+        <img src="assets/strawberry.png" class="flavor-img"><h3>Strawberry Glow</h3>
+        <p>Classic, juicy, strawberry with vitamin C boost.</p>
+        <button class="btn small" onclick="quickAdd('Strawberry Glow')">Quick Add</button>
+      </article>
+      <article class="flavor-card pop-in">
+        <img src="assets/mango.png" class="flavor-img"><h3>Mango Radiance</h3>
+        <p>Tropical mango with a sweet-heat twist, made naturally.</p>
+        <button class="btn small" onclick="quickAdd('Mango Radiance')">Quick Add</button>
+      </article>
+      <article class="flavor-card pop-in">
+        <img src="assets/berry.png" class="flavor-img"><h3>Berry Boost Mix</h3>
+        <p>Mixed-berry blend with fiber for wellness on-the-go.</p>
+        <button class="btn small" onclick="quickAdd('Berry Boost Mix')">Quick Add</button>
+      </article>
+      <article class="flavor-card pop-in">
+        <img src="assets/electrolyte.png" class="flavor-img"><h3>GlowBoost Electrolyte</h3>
+        <p>Hydration gummies for gym days and long walks across campus.</p>
+        <button class="btn small" onclick="quickAdd('GlowBoost Electrolyte')">Quick Add</button>
+      </article>
+    </div>
+    <a href="shop.html" class="btn primary mt-24">View All Flavors</a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="support.html">Customer Support</a>
+      <a href="login.html">Login / Sign Up</a>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">YouTube</a>
+    </div>
+    <p>© 2025 GlowJoy Naturals · Built as a college project using ChatGPT</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
